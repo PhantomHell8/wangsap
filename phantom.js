@@ -370,7 +370,6 @@ if (isCmd && !isUser){
       	//if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mTEXT\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 
 //━━━━━━━━━━━━━━━[ MENU ]━━━━━━━━━━━━━━━━━//
-const ytsr = require ('nx')
 switch (command) {
 	case 'allmenu':
 	gambar = fs.readFileSync('./phantom/Ndy.jpg')
