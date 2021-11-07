@@ -30,7 +30,6 @@ const fetch = require('node-fetch')
 const moment = require('moment-timezone')
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
-const ytsd = require('ytsr')
 
 //━━━━━━━━━━━━━━━[ DATABASE ]━━━━━━━━━━━━━━━━━//
 
@@ -612,7 +611,6 @@ timestamp = speed();
 latensi = speed() - timestamp
 teks = `Hai Kak ${pushname}
 ┏━━⬣ Downloader ⬣
-┃⬡ ${prefix}igstory
 ┃⬡ ${prefix}ytmp3
 ┃⬡ ${prefix}ytmp4
 ┃⬡ ${prefix}ytsearch
