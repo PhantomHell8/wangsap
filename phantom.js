@@ -1108,7 +1108,7 @@ break
 
 case 'igstory':
 if(!q) return reply('*Username?*')
-              hx.igstory(q)
+              hx.igstory(`${q}`)
              .then(async result => {
               for(let i of result.medias){
               if(i.url.includes('mp4')){
@@ -1370,56 +1370,79 @@ reply (`Hai Kak ${pushname}\nhttps://chat.whatsapp.com/KmEaL95J9wgGN5Ac12Eieu\nJ
 break
 case 'adavirtex':
 phantom.sendMessage(from, `*Lari Ada HeNgKeR*
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
-N̷d̷y̷i̷e̷ G̷a̷m̷t̷e̷n̷z̷
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
+ᴘʜᴀɴᴛᴏᴍ ʜᴇʟʟ ᴡᴀꜱ ʜᴇʀᴇ
 *════〘 Phantom Hell〙════*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "By Phantom Hell",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./phantom.jpg'),sourceUrl:"OV1876"}}})
 break
 //━━━━━━━━━━━━━━━[ Akhir Dari Semua ]━━━━━━━━━━━━━━━━━//
