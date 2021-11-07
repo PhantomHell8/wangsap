@@ -30,7 +30,6 @@ const fetch = require('node-fetch')
 const moment = require('moment-timezone')
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
-const hx = require('hxz-api')
 const ytsd = require('ytsr')
 
 //━━━━━━━━━━━━━━━[ DATABASE ]━━━━━━━━━━━━━━━━━//
@@ -1094,7 +1093,7 @@ case 'sourcecode':
 case 'script':
 case 'sc':
 teks = 
-`*Bot Ini Mengguna Sourcecode
+`Bot Ini Mengguna Sourcecode
 ╭─────────────────────
 ├ Sc Ini Di Buat Oleh Phantom Hell
 ├─────────────────────
@@ -1105,23 +1104,6 @@ teks =
 phantom.sendMessage(from, teks, text, {quoted: ftrol})
 break
 //━━━━━━━━━━━━━━━[ downloader ]━━━━━━━━━━━━━━━━━//
-
-case 'igstory':
-if(!q) return reply('*Username?*')
-              hx.igstory(`${q}`)
-             .then(async result => {
-              for(let i of result.medias){
-              if(i.url.includes('mp4')){
-              let link = await getBuffer(i.url)
-              phantom.sendMessage(from,link,video,{quoted: mek,caption: `Type : ${i.type}`})
-              } else {
-              let link = await getBuffer(i.url)
-              phantom.sendMessage(from,link,image,{quoted: mek,caption: `Type : ${i.type}`})                  
-              }
-              }
-              });
-              break
-
 case 'ytsearch':
             if (!args.length) return reply('Judulnya apa kak?')
             try {
