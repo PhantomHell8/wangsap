@@ -440,33 +440,24 @@ switch (command) {
 ┃⬡ ${prefix}animejapan
 ┗━━━━━━━━⬣
 
-┏━━⬣ War Menu ⬣
-┃⬡ ${prefix}virtex1
-┃⬡ ${prefix}virtex2
-┃⬡ ${prefix}virtex3
-┃⬡ ${prefix}virtex4
-┃⬡ ${prefix}virtex5
-┃⬡ ${prefix}virtex6
-┃⬡ ${prefix}virtex7
-┃⬡ ${prefix}virtex8
-┃⬡ ${prefix}virtex9
-┃⬡ ${prefix}virtex10
+┏━━⬣ Maker Menu⬣
+┃⬡ ${prefix}tahta
+┃⬡ ${prefix}coffeecup 
+┃⬡ ${prefix}coffeecup2
+┃⬡ ${prefix}burn
+┃⬡ ${prefix}neon
+┃⬡ ${prefix}glow
+┃⬡ ${prefix}battlefield
+┃⬡ ${prefix}silverbutton
+┃⬡ ${prefix}goldbutton
+┃⬡ ${prefix}nulis
 ┗━━━━━━━━⬣
 
-┏━━⬣ Jb Menu ⬣
-┃⬡ ${prefix}rdp
-┃⬡ ${prefix}polig
-┃⬡ ${prefix}suntiktiktok
-┃⬡ ${prefix}logo
-┃⬡ ${prefix}harting
-┃⬡ ${prefix}jasher
-┃⬡ ${prefix}ownertag
-┃⬡ ${prefix}buysc
-┃⬡ ${prefix}sewa
-┃⬡ ${prefix}bot
+┏━━⬣ Downloader Menu ⬣
+┃Masih On going :v
 ┗━━━━━━━━⬣`
 teks =
-`Jan Jual Sc Ini Ngetod`
+`©Phantom Hell`
 but = [
           { buttonId: `${prefix}infobot`, buttonText: { displayText: 'INFO' }, type: 1 },
           { buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER' }, type: 1 }
@@ -587,7 +578,7 @@ case 'makermenu':
 timestamp = speed();
 latensi = speed() - timestamp
 teks = `Hai Kak ${pushname}
-┏━━⬣ makermenu ⬣
+┏━━⬣ Maker Menu ⬣
 ┃⬡ ${prefix}tahta
 ┃⬡ ${prefix}coffeecup 
 ┃⬡ ${prefix}coffeecup2
